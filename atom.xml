@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://levi1022.github.io/"/>
-  <updated>2021-06-01T09:50:25.804Z</updated>
+  <updated>2021-06-02T14:38:24.181Z</updated>
   <id>https://levi1022.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DAY1</title>
+    <link href="https://levi1022.github.io/2.html"/>
+    <id>https://levi1022.github.io/2.html</id>
+    <published>2021-06-02T14:27:52.000Z</published>
+    <updated>2021-06-02T14:38:24.181Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;#&quot; alt&gt;&lt;/p&gt;
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Blog" scheme="https://levi1022.github.io/categories/Blog/"/>
+    
+    
+      <category term="Github" scheme="https://levi1022.github.io/tags/Github/"/>
+    
+      <category term="Hexo" scheme="https://levi1022.github.io/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>第一篇文章</title>

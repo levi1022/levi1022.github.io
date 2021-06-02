@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>DAY1</title>
+      <link href="/2.html"/>
+      <url>/2.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="#" alt></p><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><ul><li><p>今天在增加了主页听听音乐的歌曲，但由于是在另外电脑上，没有经验，所以只能摸索。</p></li><li><p>复制了自己原先搭建博客电脑里的所有文件，尝试修改配置后，上传失败，花了不少时间消除小脑袋瓜的一堆问号终于不算完美的解决上传问题了。</p></li></ul><p><strong>参考了几篇文章，及百度谷歌一下的帮忙：</strong></p><p><a href="https://www.zhihu.com/question/21193762/answer/103097754" title="使用hexo，如果换了电脑怎么更新博客？" target="_blank" rel="noopener">《使用hexo，如果换了电脑怎么更新博客？》</a>   (By 知乎)</p><p><a href="https://blog.csdn.net/zeqiao/article/details/75124532" title="上传项目到 GitHub：如何用同一个 github 帐号在两台电脑上同步开发？/ 如何协同开发？" target="_blank" rel="noopener">《上传项目到 GitHub：如何用同一个 github 帐号在两台电脑上同步开发？/ 如何协同开发？》</a>   (By zeqiao)</p><p>前前后后又折腾了不少时间，不愧是我。</p><h1 id="问题的解决"><a href="#问题的解决" class="headerlink" title="问题的解决"></a>问题的解决</h1><p>首先，复制好了源博客搭建文件后，需要在现在的电脑安装<a href="https://git-scm.com/download/win" title="Git" target="_blank" rel="noopener">Git</a>、<a href="https://nodejs.org/dist/v12.0.0" target="_blank" rel="noopener">Node.js</a><br>1.在博客文件根目录下右键打开<font color="red" size="3">git bash</font>, 运行：<font color="red" size="3">ssh-keygen -t rsa -C “<a href="mailto:youremail@example.com" target="_blank" rel="noopener">youremail@example.com</a>“</font><br>2.生成的rsa放入Github里提交<br>3.输入 <font color="red" size="3">npm install hexo-cli -g</font>，开始安装hexo<br>4.博客文件根目录里.git/，node_modules/，public/，.deploy_git/，db.json文件需要删除<br>5.运行 <font color="red" size="3">npm install</font>，进行模块安装<br>6.运行 <font color="red" size="3">npm install hexo-deployer-git –save</font>，方便部署到git上<br>7.运行 <font color="red" size="3">hexo g</font>, <font color="red" size="3">hexo d</font>上传到Github，完成！</p><h1 id="一些话"><a href="#一些话" class="headerlink" title="一些话"></a>一些话</h1><p>今天公司我所在部门又发生了人事变动，好坏参半。</p><p><img src="./2/1.png" alt></p><h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>今天没什么收获，下了个PHP微信接口开发之基础篇开阔视野，今天过了也不知道搁多久会看，属实废了！</p><p><img src="./2/2.png" alt></p><p>文章中的引用以及参考资料涉及侵权请联系我删除！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Blog </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第一篇文章</title>
       <link href="/1.html"/>
       <url>/1.html</url>
