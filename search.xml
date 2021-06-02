@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>第一篇文章</title>
+      <link href="/1.html"/>
+      <url>/1.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://wallroom.io/2880x1800/bg-16697be.jpg" alt></p><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><ul><li><p>作为一个计算机爱好者，借鉴学习了搭建出自己的博客。目前编程语言0基础，没有任何开发经验。网上各类教程琳琅满目，花花世界迷人眼，懵懂无知来冒险。所以，单纯为了记录些鸡毛蒜皮的事，给昨天的自己以及十年后的自己。</p></li><li><p>搭建博客的初衷是希望用来记录各种学习过程（可能），帮助自己长点心。</p></li><li><p><strong>为什么要搭建自己的博客？可以看看这三篇文章：</strong></p></li></ul><p><a href="http://mindhacks.cn/2009/02/15/why-you-should-start-blogging-now/" title="为什么你应该（从现在开始就）写博客" target="_blank" rel="noopener">《为什么你应该（从现在开始就）写博客》</a>   (By 刘未鹏 | Mind Hacks)</p><p><a href="https://www.zhihu.com/question/19916345" title="为什么要自建博客？" target="_blank" rel="noopener">《为什么要自建博客？》</a>   (By 知乎)</p><p><a href="https://www.cnblogs.com/jhzhu/p/3893297.html" title="我为什么写博客" target="_blank" rel="noopener">《我为什么写博客》</a> （By 知明所以）</p><p>我们需要知道搭建博客要用到的框架。<font color="red" size="3">Hexo</font>是高效的静态站点生成框架，它基于<font color="red" size="3">Node.js</font>。我们使用<font color="red" size="3">MarkDown</font>在本地编辑我们的博客文章，通过<font color="red" size="3">Hexo</font>生成静态页面，再用两条命令即可部署到我们的网站。无需关心网页源代码的具体细节，我们只需要用心写好自己的博客内容就行。</p><h1 id="一些话"><a href="#一些话" class="headerlink" title="一些话"></a>一些话</h1><p>刚开始看别人的博客感觉很新奇。从一开始以为会特别复杂，需要建站编程经验，之后谷歌了一下，又发现名副其实。其实现在互联网发展很迅速，在我接触不到的地方蓬勃发展。不需要自己额外学一大堆编程语言和花钱买服务器之类的，轻松搭建属于自己的博客！其实，前前后后，失败过好几次，放弃过好几次，不知道自己到底哪里没做到位，不过在2021年5月30日终于百度谷歌解决不少关键问题了，成功写下自己的第一篇博客文章，受益良多！</p><p>最近状态非常不对劲，学习的念头不知道丢哪去了，希望能尽早找回来。</p><p><img src="./1/1.png" alt></p><h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>今天是2021年6月1日，国际儿童节。</p><p><img src="./1/2.png" alt></p><p>文章中的引用以及参考资料涉及侵权请联系我删除！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Blog </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
