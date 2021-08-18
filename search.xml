@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>DAY2</title>
+      <link href="/3.html"/>
+      <url>/3.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="./3/1.png" alt></p><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><ul><li><p>好久没记录日常了，最近折腾云服务器啊，青龙啊，总算告一段落，正常使用了，功夫不负有心人呐！</p></li><li><p>不过还有亿点点问题需待探索解决，这篇blog算又一个简单的开始吧！</p></li></ul><p><strong>参考了下面这篇文章，解决了图形任务运行依赖问题：</strong></p><p><a href="https://www.kejiwanjia.com/zheteng/4887.html" title="特定依赖安装" target="_blank" rel="noopener">《特定依赖安装》</a> （By<br>LAzySheep）</p><h2 id="小米运动改步"><a href="#小米运动改步" class="headerlink" title="小米运动改步"></a>小米运动改步</h2><ul><li>青龙面板新建任务</li></ul><blockquote><pre><code>ql raw https://raw.githubusercontent.com/Oreomeow/VIP/main/Scripts/py/mimotion.py</code></pre></blockquote><ul><li><p>然后运行这个任务</p></li><li><p>注意：安装依赖命令</p></li></ul><p><code>docker exec -it qinglong bash</code> # 进入容器内</p><p><code>pip3 install pytz</code> # 为了云函数使用 pytz</p><ul><li>环境变量填写看脚本注释</li></ul><h2 id="特定依赖安装"><a href="#特定依赖安装" class="headerlink" title="特定依赖安装"></a>特定依赖安装</h2><p> 方式一：FinalShell连接，直接使用命令</p><ol><li><blockquote><pre><code>docker exec -it qinglong bash -c &quot;npm install -g npm&quot;</code></pre></blockquote></li><li><blockquote><pre><code>docker exec -it qinglong bash -c &quot;pnpm install png-js&quot;</code></pre></blockquote></li><li><blockquote><pre><code>docker exec -it qinglong bash -c &quot;pip3 install requests&quot;</code></pre></blockquote></li><li><blockquote><pre><code>docker exec -it qinglong bash -c &quot;npm install axios&quot;</code></pre></blockquote></li><li><blockquote><pre><code>docker exec -it qinglong bash -c &quot;npm install date-fns&quot;</code></pre></blockquote></li><li><blockquote><pre><code>docker exec -it qinglong bash -c &quot;apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev &amp;&amp; cd scripts &amp;&amp; npm install canvas --build-from-source&quot;</code></pre></blockquote></li><li><blockquote><pre><code>docker exec -it qinglong bash -c &quot;apk add python3 zlib-dev gcc jpeg-dev python3-dev musl-dev freetype-dev&quot;</code></pre></blockquote></li></ol><p>方式二：添加到<em>extra.sh</em>中，以后重启应该就自动装</p><ol><li><blockquote><pre><code>cd  scripts &amp;&amp; pnpm install -g png-js</code></pre></blockquote></li><li><blockquote><pre><code>pnpm install -g date-fns</code></pre></blockquote></li><li><blockquote><pre><code>pnpm install -g axios</code></pre></blockquote></li><li><blockquote><pre><code>pnpm install -g crypto-js</code></pre></blockquote></li><li><blockquote><pre><code>pnpm install -g ts-md5</code></pre></blockquote></li><li><blockquote><pre><code>pnpm install -g tslib</code></pre></blockquote></li><li><blockquote><pre><code>pnpm install -g @types/node</code></pre></blockquote></li><li><blockquote><pre><code>pnpm install -g requests</code></pre></blockquote></li></ol><p><img src="./3/2.png" alt></p><p>文章中的引用以及参考资料涉及侵权请联系我删除！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 青龙 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 京东自动签到 </tag>
+            
+            <tag> 依赖安装 </tag>
+            
+            <tag> 青龙面板 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>DAY1</title>
       <link href="/2.html"/>
       <url>/2.html</url>
