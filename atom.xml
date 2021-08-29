@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://levi1022.github.io/"/>
-  <updated>2021-08-18T11:10:02.614Z</updated>
+  <updated>2021-08-29T06:45:39.774Z</updated>
   <id>https://levi1022.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DAY3</title>
+    <link href="https://levi1022.github.io/4.html"/>
+    <id>https://levi1022.github.io/4.html</id>
+    <published>2021-08-29T05:20:14.000Z</published>
+    <updated>2021-08-29T06:45:39.774Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;./4/1.jpg&quot; alt&gt;&lt;/p&gt;
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="elecV2P" scheme="https://levi1022.github.io/categories/elecV2P/"/>
+    
+    
+      <category term="服务器" scheme="https://levi1022.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+      <category term="开发工具" scheme="https://levi1022.github.io/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="elecV2P" scheme="https://levi1022.github.io/tags/elecV2P/"/>
+    
+  </entry>
   
   <entry>
     <title>DAY2</title>

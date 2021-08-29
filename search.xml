@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>DAY3</title>
+      <link href="/4.html"/>
+      <url>/4.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="./4/1.jpg" alt></p><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><ul><li><p>开发工具</p></li><li><p>好久没记录日常了，最近沉迷薅羊毛，就看上了看点这种看文章、视频赚金币提现的APP，开始利用小黄鸟(<font color="red" size="3">HttpCanary</font>)这种抓包工具，每次要复制<font color="red" size="3">body</font>到青龙面板去，属实麻烦。偶然碰见<font color="red" size="3"><a href="https://github.com/elecV2/elecV2P" target="_blank" rel="noopener">elecV2P</a></font>这种网络工具,于是熬了几天夜，磕磕碰碰、断断续续在白嫖的阿里云服务器上搭建完成。</p></li><li><p>另外还瞅了下ios的抓包工具，像圈x、surge、loon等，下次搞个苹果玩玩，估计成本比较大吼！</p></li><li><p>不过还有亿点点问题需待探索解决，这篇blog算又又一个简单的开始吧！</p></li></ul><p><strong>参考了下面几篇文章：</strong></p><p><a href="https://slaye.cn/index.php/archives/85/" title="V2P的安装（Linux）" target="_blank" rel="noopener">《V2P的安装（Linux）》</a> （By<br>沙拉野人）</p><p><a href="https://www.cnblogs.com/hallejuayahaha/p/13267892.html" title="centos安装pm2出现问题" target="_blank" rel="noopener">《centos安装pm2出现问题》</a> （By<br>哈利路亚啊啊啊）</p><h2 id="安装elecV2P"><a href="#安装elecV2P" class="headerlink" title="安装elecV2P"></a>安装elecV2P</h2><p>一. 安装docker-compose</p><pre><code>sudo curl -L &quot;https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)&quot; -o /usr/local/bin/docker-compose</code></pre><p>如果出现下载不了，加上以下代理在github下载链接前面。</p><p><code>https://ghproxy.com/</code></p><p>二.输入命令重启docker</p><pre><code>systemctl start docker</code></pre><p>三.一键命令</p><ul><li><code>docker run --restart=always</code></li><li><code>-d --name elecv2p \</code></li><li><code>-e TZ=Asia/Shanghai \</code></li><li><code>-p 8100:80 -p 8101:8001 -p 8102:8002 \</code></li><li><code>-v /elecv2p/JSFile:/usr/local/app/script/JSFile \</code></li><li><code>-v /elecv2p/Lists:/usr/local/app/script/Lists \</code></li><li><code>-v /elecv2p/Store:/usr/local/app/script/Store \</code></li><li><code>-v /elecv2p/Shell:/usr/local/app/script/Shell \</code></li><li><code>-v /elecv2p/rootCA:/usr/local/app/rootCA \</code></li><li><code>-v /elecv2p/efss:/usr/local/app/efss \</code></li><li><code>elecv2/elecv2p</code> </li></ul><p>四.检查镜像是否启动</p><pre><code>docker ps</code></pre><ul><li>端口、证书、抓包等就不诉了</li></ul><p><img src="./4/2.png" alt></p><h2 id="centos安装pm2出现问题"><a href="#centos安装pm2出现问题" class="headerlink" title="centos安装pm2出现问题"></a>centos安装pm2出现问题</h2><p>错误如图</p><p><img src="./4/3.png" alt></p><p>只需升级npm版本即可</p><p>1、 卸载npm: <code>npm uninstall npm -g</code></p><p>2、 安装gcc: <code>yum install gcc gcc-c++</code></p><p>3、 自建一个文件夹下载node: </p><ul><li><code>mkdir npm</code></li><li><code>cd npm</code></li><li><code>wget https://npm.taobao.org/mirrors/node/v10.14.1/node-v10.14.1-linux-x64.tar.gz</code></li></ul><p>4、 解压</p><ul><li><code>tar -xvf  node-v10.14.1-linux-x64.tar.gz</code></li><li><code>mv node-v10.14.1-linux-x64 node</code></li></ul><p>5、 添加环境变量</p><pre><code>vi /etc/profile</code></pre><p>6、 在其中手动输入添加</p><pre><code>export NODE_HOME=/root/npm/node  export PATH=$NODE_HOME/bin:$PATH</code></pre><p>7、 刷新配置</p><pre><code>source /etc/profile</code></pre><p>8、 看看自己的版本情况</p><pre><code>node -vnpm -v</code></pre><p>9、 安装pm2</p><pre><code>npm install -g pm2pm2 list</code></pre><p>10、 完成</p><p><img src="./4/4.png" alt></p><h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>最近某东感觉有动静了，豆豆都不到100，而且不少作者连夜删库跑路！</p><p>文章中的引用以及参考资料涉及侵权请联系我删除！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> elecV2P </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 服务器 </tag>
+            
+            <tag> 开发工具 </tag>
+            
+            <tag> elecV2P </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>DAY2</title>
       <link href="/3.html"/>
       <url>/3.html</url>
