@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://levi1022.github.io/"/>
-  <updated>2021-08-29T06:45:39.774Z</updated>
+  <updated>2021-09-07T11:01:29.275Z</updated>
   <id>https://levi1022.github.io/</id>
   
   <author>
@@ -15,6 +15,64 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DAY5</title>
+    <link href="https://levi1022.github.io/6.html"/>
+    <id>https://levi1022.github.io/6.html</id>
+    <published>2021-09-07T06:52:14.000Z</published>
+    <updated>2021-09-07T11:01:29.275Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;./6/1.jpg&quot; alt&gt;&lt;/p&gt;
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Docker" scheme="https://levi1022.github.io/categories/Docker/"/>
+    
+    
+      <category term="Docker" scheme="https://levi1022.github.io/tags/Docker/"/>
+    
+      <category term="CentOS" scheme="https://levi1022.github.io/tags/CentOS/"/>
+    
+      <category term="华为云" scheme="https://levi1022.github.io/tags/%E5%8D%8E%E4%B8%BA%E4%BA%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DAY4</title>
+    <link href="https://levi1022.github.io/5.html"/>
+    <id>https://levi1022.github.io/5.html</id>
+    <published>2021-09-04T08:54:14.000Z</published>
+    <updated>2021-09-07T10:40:16.810Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;em&gt;引用来源&lt;/em&gt;：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://tingtalk.me/telegram/&quot; title=&quot;已被墙需要梯子&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;《Telegram：新手指南、使用教程及频道推荐（持续更新中）》&lt;/a&gt; （By 庭勃士）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;5/telegram.png&quot; alt=&quot;telegram&quot;&gt;&lt;/p&gt;
+&lt;p&gt;电报是迄今为止最棒的即时聊天软件，在这个自由新世界，不必自我审查（Freedom of speech）。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Telegram" scheme="https://levi1022.github.io/categories/Telegram/"/>
+    
+    
+      <category term="网上冲浪指南" scheme="https://levi1022.github.io/tags/%E7%BD%91%E4%B8%8A%E5%86%B2%E6%B5%AA%E6%8C%87%E5%8D%97/"/>
+    
+      <category term="突破网络审查" scheme="https://levi1022.github.io/tags/%E7%AA%81%E7%A0%B4%E7%BD%91%E7%BB%9C%E5%AE%A1%E6%9F%A5/"/>
+    
+      <category term="Telegram" scheme="https://levi1022.github.io/tags/Telegram/"/>
+    
+  </entry>
   
   <entry>
     <title>DAY3</title>
