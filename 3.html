@@ -15,7 +15,7 @@
 不过还有亿点点问题需待探索解决，这篇blog算又一个简单的开始吧！
 
 
-参考了下面这篇文章，解决了图形任务运行依赖问题：
+参考了下面这篇文章，解决了任务运行必需依赖问题：
 《特定依赖安装》">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -623,7 +623,7 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/20.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -786,14 +786,14 @@
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    386
+                    511
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
                 
@@ -816,7 +816,7 @@
 <li><p>不过还有亿点点问题需待探索解决，这篇blog算又一个简单的开始吧！</p>
 </li>
 </ul>
-<p><strong>参考了下面这篇文章，解决了图形任务运行依赖问题：</strong></p>
+<p><strong>参考了下面这篇文章，解决了任务运行必需依赖问题：</strong></p>
 <p><a href="https://www.kejiwanjia.com/zheteng/4887.html" title="特定依赖安装" target="_blank" rel="noopener">《特定依赖安装》</a> （By<br>LAzySheep）</p>
 <h2 id="小米运动改步"><a href="#小米运动改步" class="headerlink" title="小米运动改步"></a>小米运动改步</h2><ul>
 <li>青龙面板新建任务</li>
@@ -858,31 +858,46 @@
 <pre><code>docker exec -it qinglong bash -c &quot;apk add python3 zlib-dev gcc jpeg-dev python3-dev musl-dev freetype-dev&quot;</code></pre></blockquote>
 </li>
 </ol>
-<p>方式二：添加到<em>extra.sh</em>中，以后重启应该就自动装</p>
+<p>方式二：添加到<em>extra.sh</em>中，以后重启会自动装</p>
 <ol>
 <li><blockquote>
-<pre><code>cd  scripts &amp;&amp; pnpm install -g png-js</code></pre></blockquote>
+<pre><code>cd  scripts &amp;&amp; pnpm install -g png-js   #png图形依赖库</code></pre></blockquote>
 </li>
 <li><blockquote>
-<pre><code>pnpm install -g date-fns</code></pre></blockquote>
+<pre><code>pnpm install -g date-fns   #时间库依赖</code></pre></blockquote>
 </li>
 <li><blockquote>
-<pre><code>pnpm install -g axios</code></pre></blockquote>
+<pre><code>pnpm install -g axios   #基于promise用于浏览器和node.js中的HTTP库</code></pre></blockquote>
 </li>
 <li><blockquote>
-<pre><code>pnpm install -g crypto-js</code></pre></blockquote>
+<pre><code>pnpm install -g crypto-js   #加密算法库</code></pre></blockquote>
 </li>
 <li><blockquote>
-<pre><code>pnpm install -g ts-md5</code></pre></blockquote>
+<pre><code>pnpm install -g ts-md5   #md5加密库</code></pre></blockquote>
 </li>
 <li><blockquote>
-<pre><code>pnpm install -g tslib</code></pre></blockquote>
+<pre><code>pnpm install -g tslib   #触摸屏支持库</code></pre></blockquote>
 </li>
 <li><blockquote>
-<pre><code>pnpm install -g @types/node</code></pre></blockquote>
+<pre><code>pnpm install -g @types/node   #node类型定义库</code></pre></blockquote>
 </li>
 <li><blockquote>
-<pre><code>pnpm install -g requests</code></pre></blockquote>
+<pre><code>pnpm install -g requests   #基于urllib，采用Apache2 Licensed开源协议的HTTP库</code></pre></blockquote>
+</li>
+<li><blockquote>
+<pre><code>pnpm install -g md5   #加密算法</code></pre></blockquote>
+</li>
+<li><blockquote>
+<pre><code>pnpm install -g tunnel   #HTTP隧道协议技术</code></pre></blockquote>
+</li>
+<li><blockquote>
+<pre><code>pnpm install -g tough-cookie   #cookie存储算法</code></pre></blockquote>
+</li>
+<li><blockquote>
+<pre><code>pnpm install -g form-data   #网络请求中处理表单数据及文件上传</code></pre></blockquote>
+</li>
+<li><blockquote>
+<pre><code>pnpm install -g jsdom   #用于node的模拟web浏览器应用程序接口</code></pre></blockquote>
 </li>
 </ol>
 <p><img src="./3/2.png" alt></p>
@@ -1255,7 +1270,7 @@
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="DAY3">
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="DAY3">
                         
                         <span class="card-title">DAY3</span>
                     </div>
@@ -1263,7 +1278,7 @@
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            搭建博客的初衷是希望用博客记录下自己的学习笔记，做个记录。
+                            释放双手利用重写自动抓包elecV2P
                         
                     </div>
                     <div class="publish-info">
@@ -1312,7 +1327,7 @@
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="DAY1">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="DAY1">
                         
                         <span class="card-title">DAY1</span>
                     </div>
@@ -1523,7 +1538,7 @@
            <!--<a href="/sitemap.xml" target="_blank">站点地图</a>丨-->
            
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">25.2k
+            <span class="white-color">25.3k
              丨            
           
 
@@ -1613,7 +1628,7 @@
       <span class="badge-subject">PV</span><span class="badge-value bg-brightgreen" id="busuanzi_value_site_pv"></span>
     </div>
     <div class="github-badge">
-      <span class="badge-subject">WordCount</span><span class="badge-value bg-blueviolet">25.2k</span>
+      <span class="badge-subject">WordCount</span><span class="badge-value bg-blueviolet">25.3k</span>
     </div>
 </footer>
 
