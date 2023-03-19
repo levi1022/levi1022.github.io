@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://levi1022.github.io/"/>
-  <updated>2021-10-02T08:51:37.518Z</updated>
+  <updated>2023-03-19T09:21:07.154Z</updated>
   <id>https://levi1022.github.io/</id>
   
   <author>
@@ -15,6 +15,65 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>是独白亦是情书</title>
+    <link href="https://levi1022.github.io/8.html"/>
+    <id>https://levi1022.github.io/8.html</id>
+    <published>2023-03-19T07:13:35.000Z</published>
+    <updated>2023-03-19T09:21:07.154Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="生活" scheme="https://levi1022.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="独白" scheme="https://levi1022.github.io/tags/%E7%8B%AC%E7%99%BD/"/>
+    
+      <category term="故事" scheme="https://levi1022.github.io/tags/%E6%95%85%E4%BA%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DAY6</title>
+    <link href="https://levi1022.github.io/7.html"/>
+    <id>https://levi1022.github.io/7.html</id>
+    <published>2021-12-04T01:27:14.000Z</published>
+    <updated>2021-12-04T02:00:29.088Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;./7/1.jpg&quot; alt&gt;&lt;/p&gt;
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Docker" scheme="https://levi1022.github.io/categories/Docker/"/>
+    
+    
+      <category term="Docker" scheme="https://levi1022.github.io/tags/Docker/"/>
+    
+      <category term="CentOS" scheme="https://levi1022.github.io/tags/CentOS/"/>
+    
+      <category term="Nolanjdc" scheme="https://levi1022.github.io/tags/Nolanjdc/"/>
+    
+  </entry>
   
   <entry>
     <title>DAY5</title>
